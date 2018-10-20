@@ -34,6 +34,12 @@ class NotesController < ApplicationController
             render 'edit'
         end
     end
+    def destroy
+        @note = Note.find(params[:id])
+        @note.destroy
+        
+        redirect_to notes_path
+    end
 end
 
 private
