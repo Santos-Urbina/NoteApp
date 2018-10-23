@@ -7,3 +7,12 @@ input[type=text] {
     border: 2px inset SteelBlue;
     background-color: white;
 }
+
+textarea {
+    width: 75%;
+    height: 200px;
+    padding: 18px 18px;
+    border: 2px inset SteelBlue;
+    background-color: white;
+    resize: none;
+}
