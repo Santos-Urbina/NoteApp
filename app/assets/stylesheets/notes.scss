@@ -16,3 +16,13 @@ textarea {
     background-color: white;
     resize: none;
 }
+
+input[type=button], input[type=submit] {
+    background-color: RoyalBlue;
+    float: right;
+    border: solid;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
